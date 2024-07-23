@@ -12,7 +12,15 @@
 
 ## 📜 About
 
-This project is a visual simulation of [Craig Reynolds'](https://www.red3d.com/cwr/index.html) original paper on [boids](https://www.red3d.com/cwr/boids/). The simulation demonstrates the flocking behavior of birds by simulating the interactions between individual agents. The agents follow three simple rules: alignment, cohesion, and separation. The simulation is implemented in Python using the Pygame library for visualization.
+There is beauty in simplicity.
+
+[Compliant mechanisms](https://compliantmechanisms.byu.edu/about-compliant-mechanisms) are a great example of complexity within simplicity. A compliant mechanism is a single piece of material that can perform the same complex tasks as a traditional multi-part mechanism. For an excellent demonstration, check out Mark Rober's video on the world's smallest [Nerf Gun](https://www.youtube.com/watch?v=9c2NqlUWZfo).
+
+Another entertaining example of complexity in simplicity is [Evan Zhou's](https://github.com/EvanZhouDev/donut-py) spinning ASCII donut. Inspired by Andy Sloane's [blog post](https://www.a1k0n.net/2011/07/20/donut-math.html) on the mathematics behind the spinning donut, Zhou implemented it in Python. The most impressive aspect is that he crafted the entire script as a single line of code shaped like a donut! When executed, the script renders a spinning ASCII donut in the terminal.
+
+My final example of complexity in simplicity is [Craig Reynolds'](https://www.red3d.com/cwr/index.html) original paper on [boids](https://www.red3d.com/cwr/boids/). The boids algorithm is a simple model of flocking behavior that simulates interactions between individual agents. These agents follow three basic rules: separation, alignment, and cohesion. Separation directs each boid to steer away from its nearby flockmates, preventing overcrowding. Alignment prompts boids to adjust their heading to match the average direction of their local flockmates. Cohesion encourages boids to move towards the center of their local group. The result is a mesmerizing simulation of birds flocking together, demonstrating how complex, lifelike behavior can emerge from a set of straightforward rules. This set of three basic rules can be implemented in video games to create realistic, and visually appealing environments of entities like birds or fish.
+
+I decided to explore this concept by creating a simple flocking simulation in Python. The simulation uses the boids algorithm to model the flocking behavior of birds. The boids interact with each other based on the three rules of separation, alignment, and cohesion. The result is a visually appealing simulation of birds flocking together on the screen. The simulation allows you to customize the number of boids, their speed, and other parameters to observe the flocking behavior in action. You can also enable debug mode to visualize the vectors for alignment and cohesion, providing insight into how the boids interact with each other.
 
 ![demo](docs/demo.gif)
 
